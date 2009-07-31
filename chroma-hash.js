@@ -12,8 +12,8 @@ var ChromaHash = Class.create({
         var defaults = {
             number: 3
         };
-        
         Object.extend(defaults, options);
+        element = $(element);
         
         var bars = [];
         ["primary", "secondary", "tertiary", "quaternary"]
@@ -36,7 +36,7 @@ var ChromaHash = Class.create({
     drawBars: function(e) {
         if ($F(this._element) == '') {
             this._bars.each(function(hash) {
-                hash.setStyle({backgroundColor: '#ffffff'});
+                hash.setStyle({backgroundColor: '#ffffff'}).hide();
             });
         } else {
             var md5 = hex_md5($F(this._element));
@@ -52,7 +52,7 @@ var ChromaHash = Class.create({
                     height: h + 'px',
                     width: '10px',
                     backgroundColor: '#' + colors[index]
-                });
+                }).show();
             });
         }
         /*

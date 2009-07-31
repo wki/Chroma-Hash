@@ -24,14 +24,14 @@ Prototype Version: <tt>[http://github.com/wki/Chroma-Hash/](http://github.com/wk
 - <tt>number</tt> parameter controls the number of bars displayed (1,2,3, or 4)
 
 ## Requirements
-- prototype 1.6+
+- Prototype 1.6+
 
 ## License
 
 Chroma-Hash is licensed under the MIT License:
 
   Copyright (c) 2009 Mattt Thompson (http://mattt.me/)
-  Modified for ptototype (C) 2009 Wolfgang Kinkeldei (http://www.kinkeldei.de)
+  Modified for prototype (C) 2009 Wolfgang Kinkeldei (http://www.kinkeldei.de)
 
   Permission is hereby granted, free of charge, to any person obtaining a copy
   of this software and associated documentation files (the "Software"), to deal
